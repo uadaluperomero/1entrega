@@ -6,7 +6,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="../css/style.css">
     <title>Contacto</title>
+
+    <style>
+        body {
+        font-family: Arial, Helvetica, sans-serif;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        }
+    
+        form {
+        padding: 50px 55px;
+        box-shadow: 0 0 20px rgba(0, 0, 0.2);
+        border-radius: 20px;
+        text-align: center;
+        width: 340px;
+        background-color: gray;   
+        }
+
+        form h2 {
+        color: #3f3f3f;
+        font-size: 25px; 
+        }
+
+       .input-group {
+        display: flex;
+        flex-direction: column;
+        }
+
+        input, textarea {
+        background-color: whitesmoke;
+        padding: 20px 14px;
+        margin-bottom: 25px;
+        border: 0;
+        border-radius: 10px;
+        font-size: 15px;
+        color: black
+        }
+
+    </style>
 </head>
+
 <body>
     <div class="head">
 
@@ -19,15 +61,31 @@
             <a href="#"><a href="../pages/nosotros.html">Nosotros</a></a>
             <a href="#"><a href="../pages/contacto.html">Contacto</a></a>
             <a href="#"><a href="../pages/productos.html">Productos</a></a>
-            <a href="#"><a href="../pages/pagos.html">Pagos</a></a>
-            
+            <a href="#"><a href="../pages/comprar.html">Comprar</a></a>
         </nav>
 
     </div>
-
     
-      
+    <form autocomplete="off">
 
+        <h2>Contacto</h2>
+
+        <div class="input-group">
+
+            <input type="text" name="nombre" placeholder="Nombre">
+
+            <input type="tel" name="phone" placeholder="Telefono">
+            
+            <input type="email" name="email" placeholder="Email">
+
+            <textarea name="message " cols="30" rows="5" placeholder="Mensaje"></textarea>
+
+            <input class="btn" type="submit" value="Enviar">
+
+        </div>
+    </form>
+
+     
 
 </body>
 </html>

@@ -197,161 +197,16 @@ footer {
 footer p{
     font-size: 10px;
 
-}
-main{
-    font-size: 20px;
-    background-color: #3f3f3f;
-
-}
-
-body {
-    font-family: 'Montserrat', sans-serif;
-    background: #dbe2ef;
-    background: #0e0d0d;
-    font-family: Arial, Helvetica, sans-serif;  
-  }
-  
-  
-  .form-contact {
-    background: #FFF;
-    width: 400px;
-    overflow: hidden;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: white;
-    color: #314652;
-    border-radius: 15px;
-    box-shadow: 7px 13px 37px rgba(0, 0, 0, .6);
-    box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
-  }
-  
-  header {
-    width: 100%;
-    height: 200px;
-    background: #ff165d;
-    overflow: hidden;
-    position: relative;
-  }
-  
-  header::before {
-    content: '';
-    position: absolute;
-    border-top: 30px solid transparent;
-    border-left: 400px solid white;
-    bottom: 0;
-  }
-  
-  header img {
-    width: 100%;
-    height: 199px;
-    background-size: cover;
-    color: white;
-  }
-  
-  section {
-    padding: 10px;
-    overflow: hidden;
     }
-  header span {
-    font-size: 100px;
-    display: block;
-    text-align: center;
-    padding: 2.5rem;
-  }
-  
-  
-  
-  section h2 {
-    margin: .5em 0;
-    }
-    /* font-weight: bold; */
-  .contact {
-    padding: .8rem;
-    overflow: hidden;
-    color: gray;
-  }
-  
-  section p {
-    margin: 1em 0;
-  }
-    
-
-  .contact label, .contact input, .contact textarea {
-    display: block;
-    width: 100%;
-    margin-bottom: 5px;   
-  }
-  
-  section ul li ¨{
-    list-style: none;
-    display: inline-block;
-    margin: .5em .2em;
-  }
-    
-
-  .contact label {
-    font-weight: 700;
-  }
-  
-  section ul li a {
-    color: white;
-    background: #314652;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    line-height: 30px !important;
-    transition: all .4s ease-in-out;
-
-  }
-    text-decoration none;
-    /* font-size: 24px !important; */
-    
-
-  .contact input:not([type='submit']), .contact textarea {
-    border: none;
-    border-bottom: 2px solid #ff165d;
-    margin-bottom: 10px;
-    font-size: 20px;
-    outline: none;
-    color: gray;
-  }
-  
-  section ul li a:hover {
-    transform: scale(1.2);
-  }
-    
-    
-  .contact textarea {
-    min-height: 100px;
-  }
-  
-  
-    font-size: 20px;
-    /* pointer-events: none; */
-    cursor: pointer;
 
 
-    main .img-dos, main .img-cinco {
-        display: none;
-    }
+
+
+
+
     
-    main div img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    
-    main {
-        height: 70vh;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows:repeat(3, 25%) ;
-        gap: 30px;
-        align-content: center;
-        margin: 30px 20px;
-    }
+
+
 
 
 
